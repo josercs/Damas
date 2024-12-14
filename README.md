@@ -24,12 +24,3 @@ Este é um jogo de Damas que roda em um navegador. Ao carregar a página, o jogo
 O jogo continua até que um jogador capture todas as peças do adversário ou bloqueie todos os movimentos possíveis, forçando a vitória.
 
 Este jogo implementa várias regras clássicas e algumas funcionalidades automáticas para melhorar a experiência, como a promoção automática a Rainha e a exigência de capturas múltiplas quando disponíveis.
-
-
-* [CURSO DE HTML E CSS](https://github.com/VILHALVA/CURSO-DE-HTML-E-CSS)
-* [CURSO DE JAVASCRIPT](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
-* [CONFIRA MAIS CURSOS](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO)
-
-## CREDITOS:
-- [PROJETO CRIADO PELO "HercoZauZau"](https://github.com/HercoZauZau/JogoDeDamas)
-- [PROJETO EDITADO PELO VILHALVA](https://github.com/VILHALVA)
