@@ -25,8 +25,7 @@ O jogo continua até que um jogador capture todas as peças do adversário ou bl
 
 Este jogo implementa várias regras clássicas e algumas funcionalidades automáticas para melhorar a experiência, como a promoção automática a Rainha e a exigência de capturas múltiplas quando disponíveis.
 
-## NÃO SABE?
-- Entendemos que para manipular arquivos em `HTML`, `CSS` e outras linguagens relacionadas, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos cursos gratuitos disponíveis:
+
 * [CURSO DE HTML E CSS](https://github.com/VILHALVA/CURSO-DE-HTML-E-CSS)
 * [CURSO DE JAVASCRIPT](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
 * [CONFIRA MAIS CURSOS](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO)
