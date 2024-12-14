@@ -1,11 +1,6 @@
 # JOGO DE DAMAS
 👨‍🏫JOGO EM HTML/CSS/JS.
 
-<img src="./IMAGENS/FOTO_1.png" align="center" width="500"> <br> 
-<img src="./IMAGENS/FOTO_2.png" align="center" width="500"> <br> 
-<img src="./IMAGENS/FOTO_3.png" align="center" width="500"> <br>
-<img src="./IMAGENS/FOTO_4.png" align="center" width="500"> <br>
-<img src="./IMAGENS/FOTO_5.png" align="center" width="500"> <br>
 
 ## DESCRIÇÃO:
 Este é um jogo de Damas que roda em um navegador. Ao carregar a página, o jogo gera automaticamente um tabuleiro 8x8 e coloca as peças nas posições iniciais, com as peças claras embaixo e as escuras em cima.
