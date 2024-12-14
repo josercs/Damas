@@ -1,9 +1,9 @@
 window.onload = function () {
   /*
 
-  JOGO DE DAMAS v3.0
-  AUTOR: HERCO FERNANDO TAIMO ZAUZAU
-  EMAIL: ZAUZAUHERCO@GMAIL.COM
+  JOGO DE DAMAS v3.1
+  AUTOR: jose dois santos
+  EMAIL: josercdossantos@hotmail.com
   DATA:
 
   REGRAS BASICAS
@@ -176,6 +176,7 @@ window.onload = function () {
         jogadorAtual = jogadorAtual == `claras` ? `escuras` : `claras`;
         jogadorContrario = jogadorContrario == `escuras` ? `claras` : `escuras`;
         jogaDenovo = false;
+        atualizarJogadorAtual(); // Atualizar o jogador atual
       }
 
       // SE A BOLA ATINGIR A ULTIMA LINHA OPOSTA RECEBE O TITULO DE "RAINHA" E GANHA NOVAS PROPRIEDADES
@@ -191,6 +192,9 @@ window.onload = function () {
         box[i].setAttribute("rainha", 1);
         box[i].innerHTML = `<div class="${bolaAnterior} rainhaEscura"></div>`;
       }
+
+      // Atualizar a contagem de peças restantes
+      atualizarPecasRestantes();
     }
 
     // DESBLOQUEAR TODAS BOLAS BLOQUEADAS PELA REGRA DO ATAQUE OBRIGATORIO
@@ -615,4 +619,26 @@ window.onload = function () {
       }
     } catch (error) {}
   }
+
+  function atualizarJogadorAtual() {
+    document.getElementById("jogadorAtual").innerText = `Vez do jogador: ${jogadorAtual}`;
+  }
+
+  function atualizarPecasRestantes() {
+    let claras = 0;
+    let escuras = 0;
+
+    for (let i = 0; i < box.length; i++) {
+      if (box[i].getAttribute("tipoBola") === "claras") {
+        claras++;
+      } else if (box[i].getAttribute("tipoBola") === "escuras") {
+        escuras++;
+      }
+    }
+
+    document.getElementById("pecasRestantes").innerText = `Peças restantes: Claras - ${claras}, Escuras - ${escuras}`;
+  }
+
+  // Chame a função atualizarPecasRestantes no início para definir a contagem inicial
+  atualizarPecasRestantes();
 };
